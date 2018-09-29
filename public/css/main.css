@@ -69,7 +69,7 @@
 .intro-wallpaper {
     position: relative;
     height: calc(100vh + 6vw);
-    background-image: url("../images/ryan-holloway-273158-unsplash.jpg");
+    background-image: url("../images/intro-image.jpg");
     background-size: cover;
     margin-bottom: 100px;
 }

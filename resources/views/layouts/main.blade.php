@@ -4,17 +4,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <title>Igreja Adventista de Leiria</title>
+    <title>@yield('title')</title>
     <link type="text/css" rel="stylesheet" href="{{asset("css/main.css")}}"/>
     <link type="text/css" rel="stylesheet" href="{{asset("css/bootstrap/bootstrap.css")}}"/>
+    @yield('css')
 </head>
 <body>
     <div id='header'>
         <div class="header-logo">
-            <a href="/"><img id="header-logo-white" class="header-logo-image" src="{{asset('images/adventist_logo_white.png')}}" alt="Logotipo Adventista"></a>
+            <a href="/"><img class="header-logo-image" src="{{asset('images/adventist_logo.png')}}" alt="Logotipo Adventista"></a>
         </div>
         <ul>
-            <li><a class="header-a-active" href="#">Início</a></li
+            <li><a class="header-a-active" href="/">Início</a></li
             ><li><a href="/anuncios">Anúncios</a></li
             ><li><a href="/login">Login</a></li>
         </ul>
@@ -23,7 +24,7 @@
     @yield('content')
 
     <div class="footer">
-        <h1>This is the footer</h1>
+        <a href="https://www.adventistas.org.pt/">2018 © Igreja Adventista do Sétimo Dia</a>
 
     </div>
 

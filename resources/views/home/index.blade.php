@@ -1,5 +1,11 @@
 @extends('layouts.main')
 
+@section('title', 'Igreja Adventista de Leiria')
+
+@section('css')
+    <link type="text/css" rel="stylesheet" href="{{asset("css/index.css")}}"/>
+@stop
+
 @section("content")
     <div class="intro-wallpaper">
         <span class="intro-title">Igreja Adventista de Leiria</span>

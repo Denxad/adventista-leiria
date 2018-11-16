@@ -8,5 +8,8 @@ class HomeController extends Controller
         return view('home.index');
     }
 
+    public function announcements() {
+        return view('home.announcements');
+    }
 
 }

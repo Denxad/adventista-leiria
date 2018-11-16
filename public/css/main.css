@@ -97,6 +97,11 @@
     visibility: hidden;
 }
 
+.wrapper {
+    position: relative;
+    top: 96px;
+}
+
 .footer {
     margin-top: 250px;
     width: 100%;

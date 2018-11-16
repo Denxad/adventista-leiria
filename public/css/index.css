@@ -1,24 +1,17 @@
 .intro-wallpaper {
-    position: relative;
-    height: calc(100vh + 6vw);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40em;
     background-image: url("../images/intro-image.jpg");
     background-size: cover;
-    margin-bottom: 100px;
+    margin:0 auto;
+    text-align: center;
 }
 
-.intro-title {
-    position: absolute;
-    color: white;
-    font-size: 4em;
-    font-weight: 300;
-    font-family: Gilroy;
-    left: 180px;
-    top: 5.7em;
-}
 .intro-verse {
-    position: relative;
-    left: 180px;
-    top: 460px;
+    margin:0 auto;
+    top: 18em;
     font-family: Gilroy;
     max-width: 800px;
 }
@@ -29,22 +22,11 @@
 }
 
 .intro-verse-text {
-    font-size: 1.8em;
-    margin-left: 40px;
-    margin-bottom: 10px;
+    font-size: 2em;
 }
 
 .intro-verse-location {
-    font-size: 1.5em;
-    margin-left: 60px;
-}
-
-.intro-image-divider {
-    width: 100%;
-    fill: white;
-    position: absolute;
-    bottom: 0;
-    height: 6vw;
+    font-size: 1em;
 }
 
 .content {

@@ -21,7 +21,9 @@
         </ul>
     </div>
 
-    @yield('content')
+    <div class="wrapper">
+        @yield('content')
+    </div>
 
     <div class="footer">
         <a href="https://www.adventistas.org.pt/">2018 © Igreja Adventista do Sétimo Dia</a>

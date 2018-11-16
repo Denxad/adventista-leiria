@@ -8,14 +8,10 @@
 
 @section("content")
     <div class="intro-wallpaper">
-        <span class="intro-title">Igreja Adventista de Leiria</span>
         <div class="intro-verse">
-            <p class="intro-verse-text">"For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life."</p>
-            <p class="intro-verse-location">- John 3:16</p>
+            <p class="intro-verse-text">For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.</p>
+            <p class="intro-verse-location">John 3:16</p>
         </div>
-        <svg class="intro-image-divider" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-            <polygon points="0,100 100,0 100,100"/>
-        </svg>
     </div>
 
     <div class="content">

@@ -1,12 +1,29 @@
-@extends('layouts.main')
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>Anúncios</title>
+    <link rel="shortcut icon" href="images/icons/adventist_logo_icon.ico"/>
+    <link type="text/css" rel="stylesheet" href="css/main.css"/>
+    <link type="text/css" rel="stylesheet" href="css/announcements.css"/>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap/bootstrap.css"/>
+</head>
+<body>
+    <div id="header">
+        <div class="header-logo">
+            <a href="/"><img class="header-logo-image" src="images/adventist_logo.png" alt="Logotipo Adventista"></a>
+        </div>
+        <ul>
+            <li><a class="header-a-active" href="index.html">Início</a></li
+            ><li><a href="announcement.html">Anúncios</a></li
+            ><li><a href="index.html#localization">Onde estamos?</a></li
+            ><li><a href="index.html#whoarewe">Quem somos?</a></li>
+        </ul>
+    </div>
 
-@section('title', 'Anúncios')
-
-@section('css')
-    <link type="text/css" rel="stylesheet" href="{{asset("css/announcements.css")}}"/>
-@stop
-
-@section("content")
+    <div class="wrapper">
     <div class="content">
         <div class="something">
             <h1>Random title for test purposes</h1>
@@ -62,4 +79,15 @@
                 id est laborum.</p>
         </div>
     </div>
-@stop
+
+</div>
+
+<div class="footer">
+    <a href="https://www.adventistas.org.pt/">2018 © Igreja Adventista do Sétimo Dia</a>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

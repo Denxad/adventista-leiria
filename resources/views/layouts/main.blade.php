@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <title>@yield('title')</title>
+    <link rel="shortcut icon" href="{{asset('images/icons/adventist_logo_icon.ico')}}"/>
     <link type="text/css" rel="stylesheet" href="{{asset("css/main.css")}}"/>
     <link type="text/css" rel="stylesheet" href="{{asset("css/bootstrap/bootstrap.css")}}"/>
     @yield('css')
@@ -17,7 +18,8 @@
         <ul>
             <li><a class="header-a-active" href="/">Início</a></li
             ><li><a href="/anuncios">Anúncios</a></li
-            ><li><a href="/login">Login</a></li>
+            ><li><a href="#localization">Onde estamos?</a></li
+            ><li><a href="#whoarewe">Quem somos?</a></li>
         </ul>
     </div>
 
@@ -51,16 +53,6 @@
         </div>
     </div>
 
-    <script>
-        function initMap() {
-            var location = {lat: 39.727442, lng: -8.809047};
-            var map = new google.maps.Map(
-                document.getElementById('map'), {zoom: 17, center: location});
-        }
-    </script>
-    <script async defer
-            src="https://maps.googleapis.com/maps/api/js?callback=initMap"> //Add key after billing
-    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="{{asset("js/bootstrap/bootstrap.js")}}"></script>
     <script src="{{asset('js/main.js')}}"></script>

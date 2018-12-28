@@ -3,6 +3,8 @@
     flex-direction: column;
     justify-content: center;
     height: 40em;
+    width: 100%;
+    max-width: 1920px;
     background-image: url("../images/intro-image.jpg");
     background-size: cover;
     margin:0 auto;
@@ -40,8 +42,6 @@
 #map {
     position: relative;
     height: 300px;
-    width: 100%;
-    background-color: black;
 }
 
 .content h1 {

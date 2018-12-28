@@ -17,6 +17,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 #header {
     position: fixed;
     background-color: white;
@@ -41,6 +45,7 @@
 #header ul {
     float: right;
     margin-right: 100px;
+    max-width: available;
     vertical-align: middle;
 }
 
@@ -102,7 +107,7 @@
     top: 96px;
 }
 
-.footer {
+footer {
     margin-top: 250px;
     width: 100%;
     position: relative;
@@ -110,13 +115,13 @@
     text-align: center;
 }
 
-.footer a {
+footer a {
     position: relative;
     top: 50px;
     font-size: 0.7em;
     color: #a1a1a1;
 }
 
-.footer a:hover {
+footer a:hover {
     color: #838383;
 }

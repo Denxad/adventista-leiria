@@ -17,7 +17,6 @@
         </div>
         <ul>
             <li><a class="header-a-active" href="<?php if(Request::is('/')): echo '#'; else: echo '/'; endif; ?>">Início</a></li>
-            <li><a href="/anuncios">Anúncios</a></li>
             <?php
             if(Request::is('/')):
                 echo '<li><a href="#localization">Onde estamos?</a></li>

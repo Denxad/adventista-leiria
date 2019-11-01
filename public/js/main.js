@@ -1,13 +1,13 @@
-$(document).ready(function(){
-    var scrollTop = 0;
-    $(window).scroll(function(){
-        scrollTop = $(window).scrollTop();
-        $('.counter').html(scrollTop);
+(function(){
+    let scrollPos = 0;
+    let header = document.getElementById('header');
 
-        if (scrollTop >= 100)
-            $('#header').addClass('scrolled-header');
-        else if (scrollTop < 100)
-            $('#header').removeClass('scrolled-header');
-    });
+    window.addEventListener('scroll',function(){
+        scrollPos = window.scrollY;
 
-});
+        if(scrollPos >= 100)
+            header.classList.add('scrolled-header');
+        else if(scrollPos < 100)
+            header.classList.remove('scrolled-header');
+    })
+})();
